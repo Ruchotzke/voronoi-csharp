@@ -25,5 +25,11 @@ namespace Voronoi
         /// <param name="position">The position to query.</param>
         /// <returns>The node above, otherwise null if the beach line is empty.</returns>
         public T GetNodeAbove(Vector2 position);
+
+        /// <summary>
+        /// Return the leftmost node from the beachline.
+        /// </summary>
+        /// <returns></returns>
+        public T GetLeftmostNode();
     }
 }
